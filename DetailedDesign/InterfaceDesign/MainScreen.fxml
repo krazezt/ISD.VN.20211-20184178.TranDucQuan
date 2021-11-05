@@ -64,13 +64,12 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" styleClass="mediaImage">
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
                <children>
-                  <SubScene height="217.0" layoutX="11.0" layoutY="14.0" styleClass="mediaImage" width="138.0">
-                    <root>
-                      <Region />
-                    </root>
-                  </SubScene>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Ori.jpg" />
+                     </image></ImageView>
                </children></Pane>
          </children>
       </Pane>
@@ -114,7 +113,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Doraemon.jpg" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="630.0" layoutY="130.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -157,7 +162,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Kiana.png" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="940.0" layoutY="130.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -200,7 +211,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Ori.jpg" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="940.0" layoutY="380.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -243,7 +260,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" layoutX="-6.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Kiana.png" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="630.0" layoutY="380.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -286,7 +309,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Doraemon.jpg" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="320.0" layoutY="380.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -329,7 +358,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Ori.jpg" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="10.0" layoutY="380.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -372,7 +407,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Kiana.png" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="940.0" layoutY="630.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -415,7 +456,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Doraemon.jpg" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="630.0" layoutY="630.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -458,7 +505,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Ori.jpg" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="320.0" layoutY="630.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -501,7 +554,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Kiana.png" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
       <Pane layoutX="10.0" layoutY="630.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
@@ -544,7 +603,13 @@
                   <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
                </children>
             </Pane>
-            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage">
+               <children>
+                  <ImageView fitHeight="240.0" fitWidth="160.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@imgs/Doraemon.jpg" />
+                     </image></ImageView>
+               </children></Pane>
          </children>
       </Pane>
    </children>
