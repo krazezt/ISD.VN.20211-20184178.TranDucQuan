@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="795.0" prefWidth="1207.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="860.0" layoutY="694.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="182.0" style="-fx-background-color: red;" text="Pay order " textFill="#fff3f3">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="407.0" layoutX="37.0" layoutY="108.0" stroke="BLACK" strokeType="INSIDE" width="549.0" />
+      <Button layoutX="232.0" layoutY="286.0" mnemonicParsing="false" text="Delete" />
+      <SplitMenuButton layoutX="467.0" layoutY="227.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="58.0" text="2">
+        <items>
+          <MenuItem mnemonicParsing="false" text="Action 1" />
+          <MenuItem mnemonicParsing="false" text="Action 2" />
+        </items>
+      </SplitMenuButton>
+      <ImageView fitHeight="68.0" fitWidth="151.0" layoutX="27.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/cart.png" />
+         </image>
+      </ImageView>
+      <Text fill="#3fcbda" fontSmoothingType="LCD" layoutX="115.0" layoutY="71.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Place rush order " wrappingWidth="285.55224609375">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="747.0" layoutY="583.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Subtotal:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Text layoutX="748.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount:">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#1f93ff00" height="407.0" layoutX="617.0" layoutY="108.0" stroke="BLACK" strokeType="INSIDE" width="549.0" />
+      <Text layoutX="69.0" layoutY="565.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name:" textAlignment="RIGHT" wrappingWidth="141.748046875">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></Text>
+      <Text layoutX="69.0" layoutY="641.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Phone number:" textAlignment="RIGHT">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></Text>
+      <Text layoutX="69.0" layoutY="713.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Send to:" textAlignment="RIGHT" wrappingWidth="141.748046875">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font></Text>
+      <Text fill="#0e29d7" layoutX="56.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Supported:" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Text fill="#e80b0b" layoutX="635.0" layoutY="137.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Unsupported:" underline="true">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <Button layoutX="232.0" layoutY="455.0" mnemonicParsing="false" text="Delete" />
+      <SplitMenuButton layoutX="467.0" layoutY="424.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="58.0" text="1">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </SplitMenuButton>
+      <ScrollBar layoutX="568.0" layoutY="108.0" orientation="VERTICAL" prefHeight="407.0" prefWidth="18.0" />
+      <ScrollBar layoutX="1148.0" layoutY="108.0" orientation="VERTICAL" prefHeight="407.0" prefWidth="18.0" />
+      <Button layoutX="848.0" layoutY="286.0" mnemonicParsing="false" text="Delete" />
+      <SplitMenuButton layoutX="1057.0" layoutY="227.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="58.0" text="1">
+         <items>
+            <MenuItem mnemonicParsing="false" text="Action 1" />
+            <MenuItem mnemonicParsing="false" text="Action 2" />
+         </items>
+      </SplitMenuButton>
+      <ImageView fitHeight="153.0" fitWidth="100.0" layoutX="85.0" layoutY="167.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Doraemon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="144.0" fitWidth="100.0" layoutX="83.0" layoutY="341.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Ori.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="215.0" layoutY="208.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Doraemon">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="245.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ori">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="830.0" layoutY="209.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Kiana Tuna">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="167.0" fitWidth="139.0" layoutX="671.0" layoutY="159.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@imgs/Kiana.png" />
+         </image>
+      </ImageView>
+      <Text fill="#000cf2" layoutX="340.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="200kVND">
+         <font>
+            <Font name="System Italic" size="22.0" />
+         </font></Text>
+      <Text fill="#1a00ff" layoutX="945.0" layoutY="251.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50kVND">
+         <font>
+            <Font name="System Italic" size="22.0" />
+         </font></Text>
+      <Text fill="#3300ff" layoutX="340.0" layoutY="448.0" strokeType="OUTSIDE" strokeWidth="0.0" text="120kVND">
+         <font>
+            <Font name="System Italic" size="22.0" />
+         </font></Text>
+      <Text layoutX="225.0" layoutY="567.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trần Văn A" wrappingWidth="141.748046875">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font></Text>
+      <Text layoutX="225.0" layoutY="640.0" strokeType="OUTSIDE" strokeWidth="0.0" text="0796 717 ***" wrappingWidth="141.748046875">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font></Text>
+      <Text layoutX="225.0" layoutY="712.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Nhà A đường B phố C ..." wrappingWidth="222.748046875">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font></Text>
+      <Text fill="#2f00ff" layoutX="860.0" layoutY="581.0" strokeType="OUTSIDE" strokeWidth="0.0" text="320.000VND">
+         <font>
+            <Font size="21.0" />
+         </font></Text>
+      <Text fill="#2f00ff" layoutX="860.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="352.000VND">
+         <font>
+            <Font size="21.0" />
+         </font></Text>
+      <Text fill="RED" layoutX="1032.0" layoutY="633.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*10%VAT">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="880.0" prefWidth="1250.0" style="-fx-background-radius: 50px;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <stylesheets>
+      <URL value="style.css" />
+   </stylesheets>
+   <children>
+      <Pane prefHeight="120.0" prefWidth="1250.0" style="-fx-background-color: #ffb3b3;">
+         <children>
+            <TextField layoutX="157.0" layoutY="40.0" prefHeight="44.0" prefWidth="612.0" style="-fx-border-radius: 5px;" />
+            <MenuButton layoutX="790.0" layoutY="40.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="144.0" style="-fx-background-radius: 5px;" text="Search">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+                <MenuItem mnemonicParsing="false" text="Action 2" />
+              </items>
+            </MenuButton>
+         </children>
+      </Pane>
+      <Pane layoutX="10.0" layoutY="130.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book 1" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" styleClass="mediaImage">
+               <children>
+                  <SubScene height="217.0" layoutX="11.0" layoutY="14.0" styleClass="mediaImage" width="138.0">
+                    <root>
+                      <Region />
+                    </root>
+                  </SubScene>
+               </children></Pane>
+         </children>
+      </Pane>
+      <Pane layoutX="320.0" layoutY="130.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book 2" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="630.0" layoutY="130.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD 1" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="940.0" layoutY="130.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD 2" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="940.0" layoutY="380.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book 4" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="630.0" layoutY="380.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD 2" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="320.0" layoutY="380.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book 3" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="10.0" layoutY="380.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD 1" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="940.0" layoutY="630.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CD 3" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="630.0" layoutY="630.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Book 5" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="320.0" layoutY="630.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD 4" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+      <Pane layoutX="10.0" layoutY="630.0" prefHeight="240.0" prefWidth="300.0" style="-fx-background-color: #e6ffff;">
+         <children>
+            <Text layoutX="198.0" layoutY="27.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DVD 3" textAlignment="CENTER">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Pane layoutX="160.0" layoutY="40.0" prefHeight="189.0" prefWidth="131.0" style="-fx-border-color: #66ffc2; -fx-background-color: #e6fff5;">
+               <children>
+                  <Pane prefHeight="80.0" prefWidth="75.0">
+                     <children>
+                        <Text layoutX="38.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="37.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Avail:" underline="true">
+                           <font>
+                              <Font name="System Bold Italic" size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Pane layoutX="76.0" prefHeight="80.0" prefWidth="55.0">
+                     <children>
+                        <Text layoutX="2.0" layoutY="28.0" strokeType="OUTSIDE" strokeWidth="0.0" text="24">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="2.0" layoutY="54.0" strokeType="OUTSIDE" strokeWidth="0.0" text="70">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </Pane>
+                  <Button layoutX="25.0" layoutY="121.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="82.0" text="Add to cart" />
+               </children>
+            </Pane>
+            <Pane prefHeight="240.0" prefWidth="160.0" style="-fx-background-image: imgs/1.png;" styleClass="mediaImage" />
+         </children>
+      </Pane>
+   </children>
+</Pane>
